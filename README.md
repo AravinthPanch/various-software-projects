@@ -1,2 +1,0 @@
-# code-snippets
-AWS

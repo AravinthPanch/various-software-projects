@@ -1,0 +1,6 @@
+{
+  "name": "nodejs-video-stream",
+  "dependencies": {    
+    "connect": "~2.13.0"
+  }
+}

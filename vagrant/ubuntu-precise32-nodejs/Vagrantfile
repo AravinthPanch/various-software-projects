@@ -1,0 +1,10 @@
+# Author: Aravinth Panchadcharam
+# Email: me@aravinth.info
+# Date: 26/03/14.
+# Description: Vagrant Box ubuntu-precise32
+
+Vagrant.configure(2) do |config|
+	config.vm.box = "hashicorp/precise32"	
+	config.vm.network "public_network"	
+	config.vm.provision :shell, path: "provision.sh"
+end
